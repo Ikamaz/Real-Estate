@@ -13,7 +13,11 @@
     "vue": "^3.4.21"
   },
   "dependencies": {
-    "@inertiajs/vue3": "^1.0.15"
+    "@inertiajs/vue3": "^1.0.15",
+    "inertia": "github:inertiajs/inertia",
+    "inertiajs": "^0.0.0",
+    "laravel-precognition-vue-inertia": "^0.5.4",
+    "ue": "^0.0.0"
   },
   "name": "real-estate",
   "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\" alt=\"Laravel Logo\"></a></p>",
