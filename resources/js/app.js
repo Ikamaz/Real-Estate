@@ -2,8 +2,15 @@ import { createApp, h } from 'vue'
 import { createInertiaApp } from '@inertiajs/vue3'
 import MainLayout from './Layouts/MainLayout.vue'
 import { ZiggyVue } from 'ziggy-js'
+import NProgress from 'nprogress'
+import { router } from '@inertiajs/vue3'
 import '../css/app.css'
 
+let timeout = null
+
+router.on('start', () => {
+  timeout = setTimeout(() => NProgress.start(), 50)
+})
 
 createInertiaApp({
   resolve: name => {
