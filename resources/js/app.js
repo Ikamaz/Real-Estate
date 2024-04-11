@@ -1,9 +1,9 @@
 import { createApp, h } from 'vue'
 import { createInertiaApp } from '@inertiajs/vue3'
-import MainLayout from './Layouts/MainLayout.vue'
+import { router } from '@inertiajs/vue3'
 import { ZiggyVue } from 'ziggy-js'
 import NProgress from 'nprogress'
-import { router } from '@inertiajs/vue3'
+import MainLayout from './Layouts/MainLayout.vue'
 import '../css/app.css'
 
 let timeout = null

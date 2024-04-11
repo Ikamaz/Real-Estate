@@ -63,6 +63,7 @@ class ListingController extends Controller
     public function update(Request $request, Listing $listing)
     {
         $listing->update(
+            
             $request->validate([
                 'beds' => 'required|integer|min:0|max:20',
                 'baths' => 'required|integer|min:0|max:20',
